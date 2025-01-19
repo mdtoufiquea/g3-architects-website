@@ -96,7 +96,7 @@ main > section{
 @media screen and (max-width: 576px) {
     .navber,
     .nav-links,
-    .teams{
+    .teams,.features{
         flex-direction: column;
     }
     .nav-items{
@@ -106,6 +106,10 @@ main > section{
      .fact-description,
       .sponspors-companies{
         grid-template-columns: 1fr;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     
 }
@@ -202,4 +206,16 @@ main > section{
     margin-top: 0px;
     margin-bottom: 0px;
     
+}
+#experience-badge{
+    padding: 40px 42px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-years{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.featured-architect img{
+    width: 100%;
 }
